@@ -6,7 +6,7 @@ Become a PyBites ninja!"""
 
 def split_in_columns(message=message):
        split = message.split('\n')
-       newMessage = split.join("|")
+       newMessage = "|".join(split)
        return newMessage
 
 split_in_columns()
